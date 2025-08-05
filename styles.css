@@ -1,0 +1,60 @@
+body {
+  background-color: #fff;
+  margin-top:100px ;
+  padding: 40px;
+}
+
+
+.card {
+  border: 2px solid #000;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #fff;
+  display: inline-block;
+  padding-left: 25PX;
+  padding-right: 25PX;
+
+
+}
+
+.card.instagram {
+  background-color: #e1306c;
+  color: #fff;
+  border: none;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 25px;
+  width: 200px;
+  font-size: 14px;
+  border: none;
+}
+
+.btn.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn.light {
+  background-color: #fff;
+  color: #e1306c;
+}
